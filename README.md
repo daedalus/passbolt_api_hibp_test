@@ -1,10 +1,11 @@
 # passbolt_api_hibp_test
 A simple script that checks your passbolt stored passwords against HIBP via APIs.
 
+First install the dependencies
 ```
-First edit config.ini
+pip3 install -r requirements.txt
 ```
-Then run with:
+Edit config.ini and then run:
 ```
 python3 passbolt_api_hibp_test.py
 ```
