@@ -1,0 +1,7 @@
+pycryptodome
+tqdm
+urllib3
+cPickle
+bz2
+passboltapi
+pwnedpasswords
