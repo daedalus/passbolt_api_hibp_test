@@ -47,7 +47,7 @@ def proc_pickle(D, key=None):
   input dictionary
   output: broken_plain_password_list
   """
-  filename = ".%s.pkl" % sys.argv[0]
+  filename = f".{sys.argv[0]}.pkl"
   pkldata = []
   if exists(filename) and getsize(filename) > 16: pkldata = decompress_pickle(filename,key=key)
   newdata = [password for password in D if password not in pkldata]
